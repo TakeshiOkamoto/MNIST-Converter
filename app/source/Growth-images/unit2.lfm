@@ -1,0 +1,21 @@
+object Form2: TForm2
+  Left = 448
+  Height = 41
+  Top = 312
+  Width = 370
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 41
+  ClientWidth = 370
+  FormStyle = fsSystemStayOnTop
+  Position = poMainFormCenter
+  LCLVersion = '1.8.4.0'
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 41
+    Top = 0
+    Width = 370
+    Align = alClient
+    TabOrder = 0
+  end
+end
