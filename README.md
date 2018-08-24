@@ -1,6 +1,6 @@
 # MNIST-Converter
 Reading and writing MNIST file format.  "mnistex.py" which reads that file with TensorFlow is attached.  
-(MNIST形式ファイルの読み書き。そして、TensorFlowでそのファイルを読み取る「mnistex.py」を付属。)  
+(MNISTファイルの読み書き。そして、TensorFlowでそのファイルを読み取る「mnistex.py」を付属。)  
   
 <img src="https://github.com/TakeshiOkamoto/MNIST-Converter/blob/master/image.png">  
   
