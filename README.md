@@ -14,9 +14,51 @@ Let's try "THE MNIST DATABASE" which is classic with CNN at the beginning.
 
 MNIST DATABASEをダウンロードする  
 [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+
+| FileName | Contents |
+----|---- 
+| train-images-idx3-ubyte.gz | train images |  
+| train-labels-idx1-ubyte.gz | train labels |   
+| t10k-images-idx3-ubyte.gz | test images |   
+| t10k-labels-idx1-ubyte.gz | test labels |   
   
-|train-images-idx3-ubyte.gz|train images|  
-|train-labels-idx1-ubyte.gz |train labels|   
+When expanded it will be the next file.  
+(全て展開すると次のファイルになります。)  
+
+| FileName | Contents |
+----|---- 
+| train-images-idx3-ubyte | train images |  
+| train-labels-idx1-ubyte | train labels |   
+| t10k-images-idx3-ubyte | test images |   
+| t10k-labels-idx1-ubyte | test labels | 
+  
+Place the following files in the same folder.  
+(次のファイルを同じフォルダに配置します。)
+
+| FileName |
+----|---- 
+| train-images-idx3-ubyte |  
+| train-labels-idx1-ubyte |  
+| t10k-images-idx3-ubyte | 
+| t10k-labels-idx1-ubyte | 
+| mnistex.py | 
+| ttest.ipynb | 
+
+Just run test.ipynb with Jupyter Notebook.
+(後は、Jupyter Notebookでtest.ipynbを実行するだけです。)
+
+# How to use (mnist.exe)
+
+
+
+
+
+
+
+
+
+
+
  
 
 
