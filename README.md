@@ -70,7 +70,7 @@ The next is how to use mnist.exe.
 MNIST file format is no distinction between training and test data.  
 (MNISTのファイルフォーマットでは訓練、テストデータの区別はありません。)  
   
-The maximum value of the label (class number) is "Number of class - 1". If the number of classes is 10, "0 .. 9" can be set.
+The maximum value of the label (class number) is "Number of class - 1". If the number of classes is 10, "0 .. 9" can be set.  
 (ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
   
 # Mac / Linux  
