@@ -11,8 +11,9 @@ Since MNIST conversion and mnistex.py for TensorFlow are a set, You can instantl
   
 Let's try "THE MNIST DATABASE" which is classic with CNN at the beginning.  
 (最初はCNNで定番の「THE MNIST DATABASE」を試しましょう。)  
-
-MNIST DATABASEをダウンロードする  
+  
+Download MNIST DATABASE    
+(MNIST DATABASEをダウンロードする)    
 [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
 
 | FileName | Contents |
@@ -36,7 +37,7 @@ Place the following files in the same folder.
 (次のファイルを同じフォルダに配置します。)
 
 | FileName |
-----|---- 
+|----|
 | train-images-idx3-ubyte |  
 | train-labels-idx1-ubyte |  
 | t10k-images-idx3-ubyte | 
@@ -44,10 +45,32 @@ Place the following files in the same folder.
 | mnistex.py | 
 | ttest.ipynb | 
 
-Just run test.ipynb with Jupyter Notebook.
+Just run test.ipynb with Jupyter Notebook.  
 (後は、Jupyter Notebookでtest.ipynbを実行するだけです。)
+  
+# How to use (mnist.exe)  
+  
+There are two types of MNIST file,  "image" and "label". And that two are paired.  
+(MNISTファイルには「画像」と「ラベル」の2種類の形式があります。そして、その2つはペアになっています。)
+  
+train data (訓練データ)   = train images + train labels  
+test data  (テストデータ) = test images  + test labels  
+  
+The next is how to use mnist.exe.  
+(次はmnist.exeの使い方です。)  
 
-# How to use (mnist.exe)
+| operation | Contents |
+----|---- 
+| MNIST to IMAGE | train images |  
+| IMAGE to MNIST | train labels |   
+| LABEL to MNIST | test images |   
+| t10k-labels-idx1-ubyte | test labels | 
+  
+
+
+
+
+
 
 
 
