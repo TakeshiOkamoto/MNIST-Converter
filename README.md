@@ -45,7 +45,7 @@ Place the following files in the same folder.
 | t10k-images-idx3-ubyte | 
 | t10k-labels-idx1-ubyte | 
 | mnistex.py | 
-| ttest.ipynb | 
+| test.ipynb | 
 
 Just run test.ipynb with Jupyter Notebook.  
 (後は、Jupyter Notebookでtest.ipynbを実行するだけです。)
@@ -55,8 +55,8 @@ Just run test.ipynb with Jupyter Notebook.
 There are two types of MNIST file,  "image" and "label". And that two are paired.  
 (MNISTファイルには「画像」と「ラベル」の2種類の形式があります。そして、その2つはペアになっています。)
   
-train data (訓練データ)   = train images + train labels  
-test data  (テストデータ) = test images  + test labels  
+train data = train images + train labels  
+test data  = test images  + test labels  
   
 The next is how to use mnist.exe.  
 (次はmnist.exeの使い方です。)  
