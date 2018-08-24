@@ -74,6 +74,9 @@ The maximum value of the label (class number) is "Number of class - 1". If the n
 (ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
   
 # Mac / Linux  
+
+mnist.exe can be executed on Windows.  
+(mnist.exeはWindowsで実行可能です。)  
   
 Mac / Linux users have source code, please compile with "Lazarus".  
 (Mac / Linuxの方はソースコードがありますので、"Lazarus"でコンパイルして下さい。)
