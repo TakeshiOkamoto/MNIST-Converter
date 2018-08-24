@@ -86,3 +86,6 @@ However, the operation is unconfirmed.
   
 Also includes an application to increase one image file.  
 (1枚の画像ファイルを増やすアプリも同梱しています。)
+  
+# Contact  
+English Can understand, only 3-year-old level.
