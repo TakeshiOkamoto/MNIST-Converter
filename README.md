@@ -2,12 +2,12 @@
   
 # MNIST-Converter
 Reading and writing MNIST format file.  "mnistex.py" which reads that file with TensorFlow is attached.  
-**(MNIST形式ファイルの読み書き。そのファイルをTensorFlowで読み込む"mnistex.py"を付属。)**  
+(MNIST形式ファイルの読み書き。そして、TensorFlowでそのファイルを読み取る「mnistex.py」を付属。)  
   
 <img src="https://github.com/TakeshiOkamoto/MNIST-Converter/blob/master/image.png">  
   
 Since MNIST conversion and mnistex.py for TensorFlow are a set, You can instantly classify by CNN just by preparing images.   
-(MNIST変換とTensorFlow用のmnistex.pyがセットになっているので、画像を用意するだけでCNNによるクラス分類が即座に可能です。)  
+(MNIST変換とTensorFlow用のmnistex.pyがセットになっているので、画像を用意するだけでCNNによるクラス分類が可能です。)  
     
 # How to use (mnistex.py)  
   
@@ -20,8 +20,8 @@ Download MNIST DATABASE
 
 | FileName | Contents |
 ----|---- 
-| train-images-idx3-ubyte.gz | train images |  
-| train-labels-idx1-ubyte.gz | train labels |   
+| train-images-idx3-ubyte.gz | training images |  
+| train-labels-idx1-ubyte.gz | training labels |   
 | t10k-images-idx3-ubyte.gz | test images |   
 | t10k-labels-idx1-ubyte.gz | test labels |   
   
@@ -30,8 +30,8 @@ When expanded it will be the next file.
 
 | FileName | Contents |
 ----|---- 
-| train-images-idx3-ubyte | train images |  
-| train-labels-idx1-ubyte | train labels |   
+| train-images-idx3-ubyte | training images |  
+| train-labels-idx1-ubyte | training labels |   
 | t10k-images-idx3-ubyte | test images |   
 | t10k-labels-idx1-ubyte | test labels | 
   
@@ -55,7 +55,7 @@ Just run test.ipynb with Jupyter Notebook.
 There are two types of MNIST file,  "image" and "label". And that two are paired.  
 (MNISTファイルには「画像」と「ラベル」の2種類の形式があります。そして、その2つはペアになっています。)
   
-train data = train images + train labels  
+training data = training images + training labels  
 test data  = test images  + test labels  
   
 The next is how to use mnist.exe.  
@@ -81,7 +81,7 @@ Mac / Linux users have source code, please compile with "Lazarus".
 However, the operation is unconfirmed.   
 (但し、動作は未確認です。)  
   
-# bonus (おまけ)
+# Bonus (おまけ)
   
 Also includes an application to increase one image file.  
 (1枚の画像ファイルを増やすアプリも同梱しています。)
