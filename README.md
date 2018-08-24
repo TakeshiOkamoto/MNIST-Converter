@@ -61,19 +61,17 @@ test data  (テストデータ) = test images  + test labels
 The next is how to use mnist.exe.  
 (次はmnist.exeの使い方です。)  
 
-| operation | Contents |
+| Operation | Contents |
 ----|---- 
-| MNIST to IMAGE | train images |  
-| IMAGE to MNIST | train labels |   
-| LABEL to MNIST | test images |   
-| t10k-labels-idx1-ubyte | test labels | 
-  
+| MNIST to IMAGE | Convert MNIST file to image file. (MNSITファイルを画像ファイルへ変換します。) |  
+| IMAGE to MNIST | Convert the image file to MNIST (image). (画像ファイルをMNIST(画像)へ変換します。 ) |   
+| LABEL to MNIST | Convert the text file to MNIST (label). (テキストファイルをMNIST(ラベル)へ変換します。 ) |   
 
+MNIST file format is no distinction between training and test data.  
+(MNISTのファイルフォーマットでは訓練、テストデータの区別はありません。)  
 
-
-
-
-
+The maximum value of the label (class number) is "class number - 1". If the number of classes is 10, "0 .. 9" can be set.  
+(ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
 
 
 
