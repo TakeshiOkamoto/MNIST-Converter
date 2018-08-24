@@ -1,5 +1,3 @@
-# Currently under construction (作成中)  
-  
 # MNIST-Converter
 Reading and writing MNIST format file.  "mnistex.py" which reads that file with TensorFlow is attached.  
 (MNIST形式ファイルの読み書き。そして、TensorFlowでそのファイルを読み取る「mnistex.py」を付属。)  
@@ -7,7 +5,7 @@ Reading and writing MNIST format file.  "mnistex.py" which reads that file with 
 <img src="https://github.com/TakeshiOkamoto/MNIST-Converter/blob/master/image.png">  
   
 Since MNIST conversion and mnistex.py for TensorFlow are a set, You can instantly classify by CNN just by preparing images.   
-(MNIST変換とTensorFlow用のmnistex.pyがセットになっているので、画像を用意するだけでCNNによるクラス分類が可能です。)  
+(MNIST変換とTensorFlow用のmnistex.pyがセットになっているので、画像を用意するだけでCNNによるクラス分類が可能。)  
     
 # How to use (mnistex.py)  
   
