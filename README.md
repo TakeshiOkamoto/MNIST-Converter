@@ -72,18 +72,16 @@ MNIST file format is no distinction between training and test data.
 
 The maximum value of the label (class number) is "class number - 1". If the number of classes is 10, "0 .. 9" can be set.  
 (ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
+  
+# Mac / Linux  
+  
+Mac / Linux users have source code, please compile with "Lazarus".  
+(Mac / Linuxの方はソースコードがありますので、"Lazarus"でコンパイルして下さい。)
+  
+However, the operation is unconfirmed.   
+(但し、動作は未確認です。)  
+  
+# bonus (おまけ)
+  
+Also includes an application to increase one image file.  
+(1枚の画像ファイルを増やすアプリも同梱しています。)
