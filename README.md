@@ -48,29 +48,6 @@ Place the following files in the same folder.
 Just run test.ipynb with Jupyter Notebook.  
 (後は、Jupyter Notebookでtest.ipynbを実行するだけです。)
   
-# How to use (mnist.exe)  
-  
-There are two types of MNIST file,  "image" and "label". And that two are paired.  
-(MNISTファイルには「画像」と「ラベル」の2種類の形式があります。そして、その2つはペアになっています。)
-  
-training data = training images + training labels  
-test data  = test images  + test labels  
-  
-The next is how to use mnist.exe.  
-(次はmnist.exeの使い方です。)  
-
-| Operation | Contents |
-----|---- 
-| MNIST to IMAGE | Convert MNIST file to image file. (MNSITファイルを画像ファイルへ変換します。) |  
-| IMAGE to MNIST | Convert the image file to MNIST (image). (画像ファイルをMNIST(画像)へ変換します。 ) |   
-| LABEL to MNIST | Convert the text file to MNIST (label). (テキストファイルをMNIST(ラベル)へ変換します。 ) |   
-
-MNIST file format is no distinction between training and test data.  
-(MNISTのファイルフォーマットでは訓練、テストデータの区別はありません。)  
-  
-The maximum value of the label (class number) is "Number of class - 1". If the number of classes is 10, "0 .. 9" can be set.  
-(ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
-  
 # How to use (for keras) 
   
 ```rb
@@ -103,6 +80,29 @@ test_labels = mnist.test.labels
 train_images = train_images.reshape(-1, image_size, image_size)
 test_images = test_images.reshape(-1, image_size, image_size)
 ```  
+    
+# How to use (mnist.exe)  
+  
+There are two types of MNIST file,  "image" and "label". And that two are paired.  
+(MNISTファイルには「画像」と「ラベル」の2種類の形式があります。そして、その2つはペアになっています。)
+  
+training data = training images + training labels  
+test data  = test images  + test labels  
+  
+The next is how to use mnist.exe.  
+(次はmnist.exeの使い方です。)  
+
+| Operation | Contents |
+----|---- 
+| MNIST to IMAGE | Convert MNIST file to image file. (MNSITファイルを画像ファイルへ変換します。) |  
+| IMAGE to MNIST | Convert the image file to MNIST (image). (画像ファイルをMNIST(画像)へ変換します。 ) |   
+| LABEL to MNIST | Convert the text file to MNIST (label). (テキストファイルをMNIST(ラベル)へ変換します。 ) |   
+
+MNIST file format is no distinction between training and test data.  
+(MNISTのファイルフォーマットでは訓練、テストデータの区別はありません。)  
+  
+The maximum value of the label (class number) is "Number of class - 1". If the number of classes is 10, "0 .. 9" can be set.  
+(ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
   
 # Mac / Linux  
 
