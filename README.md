@@ -71,6 +71,39 @@ MNIST file format is no distinction between training and test data.
 The maximum value of the label (class number) is "Number of class - 1". If the number of classes is 10, "0 .. 9" can be set.  
 (ラベル(クラス番号)の最大値は「クラス数 - 1」です。クラス数が10ならば「0 .. 9」が設定可能となります。)  
   
+# How to use (for keras) 
+  
+```rb
+import mnistex
+
+# Numver of Class (クラス数)
+num_classes = 10
+
+# Image size (width = height) 
+image_size = 28
+
+mnist = mnistex.read_data_sets(
+         'train-image', # Train images (訓練用画像)
+         'train-label', # Train labels (訓練用ラベル)
+         'test-image',  # Test images  (テスト用画像)
+         'test-label',  # Test labels  (テスト用ラベル) 
+         validation_size = 0,  # Number of Validation (検証用データ数)
+                               # "This argument can be 0" (この引数は0でも可能)
+         num_classes=num_classes, # Numver of Class (クラス数)
+         one_hot=False            # one hot (ワンホット)
+       )
+
+train_images = mnist.train.images
+train_labels = mnist.train.labels
+test_images = mnist.test.images
+test_labels = mnist.test.labels
+
+# If necessary we will format it for keras
+# (必要であればkeras用に整形する)
+train_images = train_images.reshape(-1, image_size, image_size)
+test_images = test_images.reshape(-1, image_size, image_size)
+```  
+  
 # Mac / Linux  
 
 mnist.exe can be executed on Windows.  
