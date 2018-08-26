@@ -83,8 +83,8 @@ num_classes = 10
 image_size = 28
 
 mnist = mnistex.read_data_sets(
-         'train-image', # Train images (訓練用画像)
-         'train-label', # Train labels (訓練用ラベル)
+         'train-image', # Training images (訓練用画像)
+         'train-label', # Training labels (訓練用ラベル)
          'test-image',  # Test images  (テスト用画像)
          'test-label',  # Test labels  (テスト用ラベル) 
          validation_size = 0,  # Number of Validation (検証用データ数)
